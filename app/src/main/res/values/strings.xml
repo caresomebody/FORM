@@ -13,6 +13,11 @@
     <string name="title_activity_bottom_nav">BottomNav</string>
     <string name="title_home">Home</string>
     <string name="title_notifications">Notifications</string>
+    <string name="onboard1">Aplikasi FORM akan menjawab segala kebutuhan nelayan dari segi peminjaman modal, penyediaan produk dan pendidikan juga pengetahuan nelayan, serta membuka akses pasar untuk peningkatan pendapatan nelayan, juga membuka lapangan pekerjaan untuk pemuda di desa.
+</string>
+    <string name="onboard2">Form akan meregenerasi nelayan menjadi nelayan cerdas dengan berbagai fiturnya yang menyelesaikan segala tantangan dari permodalan, pasokan alat dan produk, edukasi dan mempertemukan nelayan dengan prospek bisnis berkelanjutan. Form juga akan menjadi wadah pemuda berpartisipasi dengan merebranding proses perikanan tangkap unggul.</string>
+    <string name="onboard3">Klik bergabung pada tombol di bawah ini dan pilih peran yang sesuai dengan anda. Ikuti petunjuk dan peraturannya. Setelah itu anda dapat menikmati fitur-fitur kami. Temukan ekosistem ekopopulis  disini. Meningkatkan perekonomian dengan pertimbangan kesejahteraan dan keberlanjutan alam.</string>
+
 
 
 </resources>

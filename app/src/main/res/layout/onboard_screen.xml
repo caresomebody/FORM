@@ -12,51 +12,55 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="365dp" />
+        app:layout_constraintGuide_begin="344dp" />
 
     <ImageView
         android:id="@+id/onBoardImage"
-        android:layout_width="166dp"
-        android:layout_height="262dp"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="140dp"
+        android:layout_width="217dp"
+        android:layout_height="258dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="142dp"
-        android:layout_marginBottom="56dp"
-        app:layout_constraintBottom_toTopOf="@+id/judulOnboard"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/judulOnboard"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="142dp"
-        android:layout_marginEnd="142dp"
-        android:text="TextView"
-        android:textColor="#ffff"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="345dp" />
 
     <TextView
         android:id="@+id/deskripsi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="175dp"
-        android:layout_marginTop="21dp"
-        android:layout_marginEnd="177dp"
-        android:layout_marginBottom="326dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="180dp"
         android:text="TextView"
+        android:textSize="12dp"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/judulOnboard" />
+        app:layout_constraintTop_toBottomOf="@+id/judulOnboard"
+        app:layout_constraintVertical_bias="0.708" />
+
+    <TextView
+        android:id="@+id/judulOnboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/putih"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.697" />
 
 </android.support.constraint.ConstraintLayout>
