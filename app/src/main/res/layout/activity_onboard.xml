@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/biru2"
-    tools:context=".OnboardActivity">
+    tools:context=".OnboardActivity"
+    android:id="@+id/screen_onboard"
+    >
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
