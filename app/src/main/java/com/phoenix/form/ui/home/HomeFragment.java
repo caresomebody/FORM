@@ -9,14 +9,25 @@ import android.widget.Button;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.arch.lifecycle.ViewModelProviders;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.phoenix.form.CariInevestor;
 import com.phoenix.form.R;
+import com.synnapps.carouselview.CarouselView;
+import com.synnapps.carouselview.ImageListener;
 
 public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
+    private int[] mBerita= new int[]{
+            R.drawable.karang, R.drawable.natuna, R.drawable.ekspor
+    };
+    private String [] mJudul= new String[]{
+            "Karang adjie", "Natuna melawan","Ekspor benih kobster"
+    };
     Button investor;
+    CarouselView carouselView;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -29,6 +40,17 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 cariInvestor();
+            }
+        });
+
+        carouselView= root.findViewById(R.id.berita);
+        carouselView.setPageCount(mBerita.length);
+
+        carouselView.setImageListener(new ImageListener() {
+            @Override
+            public void setImageForPosition(int position, ImageView imageView) {
+                imageView.setImageResource(mBerita[position]);
+
             }
         });
         return root;
