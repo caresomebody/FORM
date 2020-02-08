@@ -5,4 +5,10 @@
         fitur- fitur kami anda harus
         masuk dengan akun
         anda atau membuat akun baru terlebih dahulu.</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_products">Products</string>
+    <string name="title_drsea">Dr.Sea</string>
+    <string name="title_profile">Profile</string>
+
 </resources>
