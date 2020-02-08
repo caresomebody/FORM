@@ -20,7 +20,7 @@ public class SignIn extends AppCompatActivity {
         signIn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent signIn2= new Intent(SignIn.this,Main.class);
+                Intent signIn2= new Intent(SignIn.this,BottomNav.class);
                 startActivity(signIn2);
             }
         });

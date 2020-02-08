@@ -39,5 +39,6 @@ public class OnboardActivity extends AppCompatActivity {
 
         onboard = findViewById(R.id.viewPager);
         onboardViewPagerAdapter = new OnboardViewPagerAdapter(this,mList);
+        onboard.setAdapter(onboardViewPagerAdapter);
     }
 }
