@@ -7,6 +7,4 @@
     tools:context=".MainActivity"
     android:gravity="center"
     android:id="@+id/Splash"
-    android:background="@color/bgFORM">
-
-</RelativeLayout>
+    android:background="@drawable/bgsplash"/>

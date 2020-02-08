@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FORM</string>
+    <string name="welcome">Untuk bisa terhubung dengan kami
+        dan menikmati
+        fitur- fitur kami anda harus
+        masuk dengan akun
+        anda atau membuat akun baru terlebih dahulu.</string>
 </resources>

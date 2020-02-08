@@ -2,12 +2,12 @@ package com.phoenix.form;
 
 public class OnboardItem {
     String judul,deskripsi;
-    int imageView;
+    int onboardImg;
 
-    public OnboardItem(String judul, String deskripsi, int imageView) {
+    public OnboardItem(String judul, String deskripsi, int onboardImg) {
         this.judul = judul;
         this.deskripsi = deskripsi;
-        this.imageView = imageView;
+        this.onboardImg = onboardImg;
     }
 
     public String getJudul() {
@@ -26,11 +26,11 @@ public class OnboardItem {
         this.deskripsi = deskripsi;
     }
 
-    public int getImageView() {
-        return imageView;
+    public int getOnboardImg() {
+        return onboardImg;
     }
 
-    public void setImageView(int imageView) {
-        this.imageView = imageView;
+    public void setOnboardImg(int onboardImg) {
+        this.onboardImg = onboardImg;
     }
 }
