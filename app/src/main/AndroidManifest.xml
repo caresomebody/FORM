@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CariInevestor"></activity>
+        <activity android:name=".Timeline"></activity>
+        <activity android:name=".CariInevestor" />
         <activity android:name=".ui.profile.ProfileFragment" />
         <activity
             android:name=".BottomNav"
